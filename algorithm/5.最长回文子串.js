@@ -13,4 +13,3 @@ var longestPalindrome = function(s) {
 
 };
 // @lc code=end
-

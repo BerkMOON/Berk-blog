@@ -66,3 +66,9 @@ function Child4() {
 
 Child4.prototype = Object.create(Parent1.prototype)
 Child4.prototype.constructor = Child4
+
+
+/**
+ * 字面量和new关键字创建的对象是Object的实例，原型指向Object.prototype，继承内置对象Object
+ * Object.create(arg, pro)创建的对象的原型取决于arg，arg为null，新对象是空对象，没有原型，不继承任何对象；arg为指定对象，新对象的原型指向指定对象，继承指定对象
+ */
